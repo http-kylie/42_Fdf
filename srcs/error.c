@@ -6,7 +6,7 @@
 /*   By: kytan <kytan@student.42kl.edu.my>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/16 22:24:01 by kytan             #+#    #+#             */
-/*   Updated: 2024/06/16 22:24:01 by kytan            ###   ########.fr       */
+/*   Updated: 2024/06/25 10:21:30 by kytan            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ void	exit_err(int exit_status)
 	else if (exit_status == SUCCESS)
 		ft_printf("SUCCESS: The program ran successfully\n");
 	else if (exit_status == ASIAN_FAILURE_ERROR)
-		ft_printf("ASIAN_FAILURE_ERROR: You are the problem, not the program\n");
+		ft_printf("ASIAN_FAILURE_ERROR: You're the problem\n");
 	ft_printf("%s", RESET_ERR_MSG);
 	exit(exit_status);
 }
